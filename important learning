@@ -1,0 +1,18 @@
+"""Destiny 2 hype train all the way"""
+
+count_to = 80 + 30 
+
+eggs = 10**2
+
+spam = 6 % 5
+
+# Some bery important pizza pie 
+monty = True
+python = 1.234
+monty_python = python ** 2
+
+meal = 44.50
+tax = 0.0675
+tip = 0.15
+
+meal = 47.50375
