@@ -16,3 +16,10 @@ tax = 0.0675
 tip = 0.15
 
 meal = 47.50375
+
+meal = 44.50
+tax = 6.75 / 100
+tip = 15.0 / 100
+
+meal = meal + meal * tax
+total = meal + meal * tip
