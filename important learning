@@ -57,3 +57,66 @@ now = datetime.now()
 print now
 
 2017-10-20 04:05:32.291667
+
+public class YourName {
+	public static void main(String[] args) {
+
+		System.out.println("Jake");
+
+	}
+}
+
+public class DataTypes {
+	public static void main(String[] args) {
+
+		System.out.println(69);
+
+	}
+}
+
+public class DataTypesB {
+	public static void main(String[] args) {
+
+		System.out.println(true);
+
+	}
+}
+
+public class Variables {
+	public static void main(String[] args) {
+
+		int myNumber = 42;
+		boolean isFun = true; 
+		char movieRating = 'A'; 
+
+	}
+}
+
+I am switching to Java as it makes more sense and is easier to foloow for my path of thought i think 
+
+public class WhiteSpace {
+	public static void main(String[] args) {
+
+		boolean isFormatted = false;System.out.println(isFormatted);
+	System.out.println(isFormatted);
+	}
+}
+
+public class Comments {
+	public static void main(String[] args) {
+
+	/* System.out.println("Noise!"); 
+    I like poop
+    */
+      	
+	}
+}
+
+public class Arithmetic {
+	public static void main(String[] args) {
+
+		int myNumber = 8 * 8;
+		System.out.println(myNumber);
+
+	}
+}
