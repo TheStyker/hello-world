@@ -120,3 +120,29 @@ public class Arithmetic {
 
 	}
 }
+
+
+import org.json.JSONObject;
+import org.json.XML;
+
+public class Main {
+
+    public static int PRETTY_PRINT_INDENT_FACTOR = 4;
+    public static String TEST_XML_STRING =
+        "<?xml version=\"1.0\" ?><test attrib=\"moretest\">Turn this to JSON</test>";
+
+    public static void main(String[] args) {
+        try {
+            JSONObject xmlJSONObj = XML.toJSONObject(TEST_XML_STRING);
+            String jsonPrettyPrintString = xmlJSONObj.toString(PRETTY_PRINT_INDENT_FACTOR);
+            System.out.println(jsonPrettyPrintString);
+        } catch (JSONException je) {
+            System.out.println(je.toString());
+        }
+    }
+    
+    I learned what JSON was java script objective notation or something like that
+    just condensed java 
+    
+    I want to learn how to do GPGPU where you make the graphics card do the heavy lifting instead of the cpu
+    but I think I need a better understanding of API's 
