@@ -146,3 +146,41 @@ public class Main {
     
     I want to learn how to do GPGPU where you make the graphics card do the heavy lifting instead of the cpu
     but I think I need a better understanding of API's 
+    
+    import java.util.Scanner;
+class IntegerProblem
+{
+    public static void main (String args[])
+    {
+        Scanner inputScreen = new Scanner (System.in);
+        System.out.println ("Enter integer between 50 and 100");
+        int userNum = inputScreen.nextInt();
+        
+        if (userNum >= 100 || userNum <= 50)
+        System.out.println ("Congrats you have won some money");
+        if (userNum <= 100 || userNum >= 50)
+        System.out.println ("Sorry not following directions will cost you dearly");    
+    }
+}
+
+import java.util.Scanner;
+class DrivingAge
+{
+    public static void main(String args[])
+    {
+        final int FAVORITE = 16;
+        Scanner inputScreen = new Scanner(System.in);
+        
+        String userName = inputScreen.nextLine();
+        System.out.print ("What is your name?");
+        System.out.println();
+        System.out.print ("What is your age?");
+        int userNum = inputScreen.nextInt();
+         if (userNum >= FAVORITE){ 
+         System.out.print ("It's scary, userName you are old enough to drive!");
+        }
+        else{
+            System.out.print("you cannot drive yet");
+        }
+    }
+}
